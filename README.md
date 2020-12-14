@@ -25,11 +25,12 @@ https://steamuserimages-a.akamaihd.net/ugc/1652222878200855012/00F1CE72A9378E8BA
 
 # Installation
 1. Importez `items.sql` dans votre base de données
-Ajoutez ceci dans votre `server.cfg`:
+
+2. Ajoutez ceci dans votre `server.cfg`:
 
 ```ensure cr_shop```
 
-2. aller dans esx_basicneeds\server et dans le `main.lua` ajouter: 
+3. Aller dans esx_basicneeds\server et dans le `main.lua` ajouter: 
 
 ```ESX.RegisterUsableItem('bread', function(source)
     local xPlayer = ESX.GetPlayerFromId(source)
