@@ -1,4 +1,4 @@
-# cr_shop Présentation
+# 👉 cr_shop Présentation
 
 --> 26 Boutiques sur la carte
 
@@ -8,13 +8,13 @@
 
 --> Blip présent sur la map
 
-# Discord
+# 🔊 Discord
 
 --> Discord : https://discord.gg/VhNxmgu
 
 --> Retrouvez moi sur discord : CR#9463
 
-# Aperçu
+# 📷 Vidéo / Preview :
 
 --> Aperçu : https://steamuserimages-a.akamaihd.net/ugc/1652222878200853970/997EAE4978718A2DFCC7CFED00F8F15F97EAAEEA/
 https://steamuserimages-a.akamaihd.net/ugc/1652222878200854544/68B19CB38C7CCD43680A7BCCD35AA25655C276F8/
@@ -23,7 +23,7 @@ https://steamuserimages-a.akamaihd.net/ugc/1652222878200855012/00F1CE72A9378E8BA
 --> Blip : https://steamuserimages-a.akamaihd.net/ugc/1652222878200854695/69FB30984DA9D751576493474A5C6ED1D2ABED8C/
 
 
-# Installation
+# ⚙️Installation
 1. Importez `items.sql` dans votre base de données
 
 2. Ajoutez ceci dans votre `server.cfg`:
@@ -101,4 +101,8 @@ ESX.RegisterUsableItem('milk', function(source)
     TriggerClientEvent('esx_status:add', source, 'drunk', -150000)
     TriggerClientEvent('esx_basicneeds:onDrink', source)
     TriggerClientEvent('esx:showNotification', source, _U('used_milk'))
-end)```
+end)
+```
+
+
+# 🔖 Copyright (C) 2020 CR
