@@ -23,7 +23,7 @@ https://steamuserimages-a.akamaihd.net/ugc/1652222878200855012/00F1CE72A9378E8BA
 --> Blip : https://steamuserimages-a.akamaihd.net/ugc/1652222878200854695/69FB30984DA9D751576493474A5C6ED1D2ABED8C/
 
 
-# Installation 🇫🇷
+# Installation
 1. Importez `items.sql` dans votre base de données
 Ajoutez ceci dans votre `server.cfg`:
 
